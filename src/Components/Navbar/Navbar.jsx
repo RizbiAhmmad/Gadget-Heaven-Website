@@ -1,13 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className="bg-purple-500 p-4 md:p-6 rounded-xl">
+        <nav className="bg-purple-500 p-4 md:p-6 mx-6">
             <div className="container mx-auto flex justify-between items-center">
                 <a href="#" className="text-white text-2xl font-bold">Gadget Heaven</a>
                 
                 <ul className="flex space-x-6">
-                    <li><a href="#" className="text-white hover:text-gray-200">Home</a></li>
+                    <li className="text-white hover:text-gray-200"><NavLink to="/">Home</NavLink></li>
                     <li><a href="#" className="text-white hover:text-gray-200">Statistics</a></li>
                     <li><a href="#" className="text-white hover:text-gray-200">Dashboard</a></li>
                 </ul>
