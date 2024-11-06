@@ -7,8 +7,9 @@ const Gadget = ({ gadget }) => {
   return (
     
       <div className="card  bg-base-100 h-full shadow-xl">
-        <figure className="w-full h-{400px} object-cover rounded-lg p-6">
+        <figure className="p-3">
           <img 
+          className="rounded-xl  h-[200px] w-full object-cover"
             src={product_image}
             
             alt=""

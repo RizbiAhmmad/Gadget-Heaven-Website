@@ -3,7 +3,7 @@ import bannerImg from '../../assets/banner.jpg';
 
 const Banner = () => {
     return (
-      <div className="bg-purple-500 text-white mx-6 min-h-[65vh] flex flex-col items-center  p-4 relative">
+      <div className="bg-purple-500 text-white mx-6 min-h-[75vh] flex flex-col items-center  p-4 relative">
       <div className="text-center max-w-3xl mb-12"> 
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
           Upgrade Your Tech Accessorize with Gadget Heaven Accessories
@@ -17,11 +17,11 @@ const Banner = () => {
       </div>
 
       {/* Image Section */}
-      <div className="absolute p-2 shadow-lg border-2 border-white rounded-lg bottom-0 transform translate-y-1/2">
+      <div className="absolute p-2 shadow-lg border-2 border-white rounded-lg bottom-0 transform translate-y-1/2 w-1/2">
         <img
           src={bannerImg} 
           alt="VR Headset"
-          className="w-full max-w-lg rounded-lg shadow-lg"
+          className="w-full  rounded-lg shadow-lg"
         />
       </div>
     </div>
