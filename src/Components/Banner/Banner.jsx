@@ -3,8 +3,8 @@ import bannerImg from '../../assets/banner.jpg';
 
 const Banner = () => {
     return (
-      <div className="bg-purple-500 text-white mx-6 min-h-[75vh] flex flex-col items-center justify-center p-4 relative">
-      <div className="text-center max-w-3xl mb-12"> {/* Adjusted margin-bottom */}
+      <div className="bg-purple-500 text-white mx-6 min-h-[65vh] flex flex-col items-center  p-4 relative">
+      <div className="text-center max-w-3xl mb-12"> 
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
           Upgrade Your Tech Accessorize with Gadget Heaven Accessories
         </h2>
