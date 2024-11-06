@@ -9,7 +9,7 @@ const Gadget = ({ gadget }) => {
       <div className="card  bg-base-100 h-full shadow-xl">
         <figure className="p-3">
           <img 
-          className="rounded-xl  h-[200px] w-full object-cover"
+          className="rounded-xl  h-[300px] w-full object-cover"
             src={product_image}
             
             alt=""

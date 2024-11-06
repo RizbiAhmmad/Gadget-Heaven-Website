@@ -87,11 +87,13 @@ const GadgetComparison = () => {
           </button>
         </div>
       )}
-
-      <h1 className="text-2xl font-bold my-5">Gadget Comparison</h1>
-      <p>
+      
+      <div className="bg-purple-500">
+      <h1 className="text-2xl font-bold my-2 text-white text-center ">Gadget Comparison</h1>
+      <p className="text-center text-white">
         Select up to two gadgets to compare their features, prices, and ratings.
       </p>
+      </div>
 
       <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
