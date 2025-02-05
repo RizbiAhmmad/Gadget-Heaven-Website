@@ -11,9 +11,6 @@ Welcome to **Gadget Heaven**, an interactive e-commerce platform where users can
 ## 📂 **GitHub Repository**  
 [🔗 Gadget Heaven GitHub](https://github.com/RizbiAhmmad/Gadget-Heaven-Website)  
 
-## 📜 **Project Requirements**  
-[🔗 Requirement Document](https://pdf.ac/2V5qwr)  
-
 ---
 
 ## 🛠 **Technologies Used**  
